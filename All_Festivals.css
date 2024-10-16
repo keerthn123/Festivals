@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #404099;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+div {
+    text-align: justify;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', serif; 
+    line-height: 1.6;
+    color: #555;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    div {
+        max-width: 1400px;
+    }
+}

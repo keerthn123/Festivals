@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="Index-style.css">
+</head>
+
+<body>
+
+    <table style="width:100%">
+        <tr>
+            <td colspan="10" align="center">
+                <img src="images/Mainimage.png" height="100">
+            </td>
+        </tr>
+
+        <!-- Contact Form Section -->
+        <tr>
+            <td colspan="6" style="padding:20px 30px;">
+                <h1>Contact Us</h1>
+                
+                <!-- Contact Form -->
+                <form action="submit-contact.php" method="post">
+                    <label for="name">Name</label><br/>
+                    <input type="text" id="name" name="name" required><br/><br/>
+                    
+                    <label for="email">Email</label><br/>
+                    <input type="email" id="email" name="email" required><br/><br/>
+                    
+                    <label for="mobile">Mobile</label><br/>
+                    <input type="tel" id="mobile" name="mobile" required><br/><br/>
+                    
+                    <label for="message">Message</label><br/>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br/><br/>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
